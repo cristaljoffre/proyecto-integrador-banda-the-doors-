@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: 'Cagliostro', sans-serif;
+    background-color: black;
+}
+.fondo {
+    background-image: url(../img/ellos.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fondo:hover {
+    background-image: url(../img/WhatsApp\ Image\ 2019-02-11\ at\ 23.50.43.jpeg);
+    background-size: 50%;
+    background-position: center center;
+}
+a{
+    color: rgb(252, 7, 7);
+    text-decoration: none;
+}
+.ajusteimg {
+    width: 100%;
+}
+.tittleuno {
+    font-family: 'Notable', sans-serif;
+    margin: 0%;
+    margin-bottom: 50%;
+    color: red;
+    font-size: 175px;
+}
+.tittle {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size:100px; 
+    text-align: right;
+}
+#contacto {
+    font-size: 16px;
+    background-color: dimgray;
+    border: black;
+    text-align: center;
+    margin-top: 0 !important;
+}
+footer {
+    background:linear-gradient(dimgray, white); 
+}
+.flash {
+    animation-name: flash;
+    animation-iteration-count: infinite; /*repeticion de la animacion si es solo una repeticion añadimos cuantas veces 1 o2..*/
+    animation-timing-function: ease-in; /*velocidad durante la animacion*/
+    animation-duration: 2s;
+    animation-delay:1s; 
+}
+.index {
+    background-color: rgba(12, 11, 11, 0.178);
+    height: 100%;
+    margin: 0;
+}
+.menu {
+    text-align: center;
+    margin-bottom: 0%;
+}
+.menu li {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+.form {
+width: 30%;   
+margin: auto; 
+}
+input, textarea, select {
+    width: 100%;
+}
+.bodyh {
+    background-image: url(../img/nube.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.historia {
+    text-align: right;    
+    margin: 0;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.historia  .overlay {
+    position: absolute;
+    top: 350px;
+    left: 50;
+    opacity: 0;
+    transition: ease all 0.2s;
+}
+.historia:hover .overlay {
+    opacity: 1;
+}
+.p {
+    line-height: 18px;  
+    letter-spacing: 1spx;
+    text-align: justify;
+    margin: 0%;
+}
+.bodyint {
+    background-image: url(../img/1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.tittle2 {
+    font-size: 100px;
+    color: brown;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: right;
+}
+.columna1 {
+    background: rgba(255, 255, 255, 0,2);
+    padding:  20px;
+    width: 47%;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    color:wheat;
+}
+.columna2 
+    {
+    background: rgba(255, 255, 255, 0,2);
+    padding: 20px;
+    width: 47%;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    color: wheat;
+}
+.imgint {
+    text-align: right;
+}
+.bodydis {
+    background-image: url(../img/vitrola.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*.bodydis:hover {
+    background-image: url(../img/fotofondonegro.jpg);
+}*/
+.tapa {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+#thedoors {
+    background-image: url(../img/302.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#thedoors:hover {
+    background-image: url(../img/retro.jpg);
+}
+#tapa1 {
+    background-image: url(../img/tapa1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: center center;
+    background-size: cover;
+}
+#tapa1:hover {
+    background-image: url(../img/nube.jpg);
+}
+.menudisco {
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    word-spacing: 20px;
+    font-size: 20px;
+    background-color: rgba(74, 146, 104, 0.13);
+    z-index: 999666;
+}
+.totalsection {
+    text-align: center;
+}
+.totalseccion img {
+    width: 40%;
+    height: 40%;
+}
+table {
+    margin: 0 auto;
+    width: 40%;
+    letter-spacing: 7px;
+    background-color: rgba(127, 255, 212, 0.479);
+}
+.info {
+    text-align: center;    
+    margin: 0;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.info img {
+    width: 35%;
+    height: 35%;
+}
+.info  .overlay {
+    position: absolute;
+    top: 100px;
+    left: 100;
+    opacity: 0;
+    transition: ease all 0.2s;
+    background-color: rgb(165, 136, 42);
+}
+.info:hover .overlay {
+    opacity: 1;
+}
+.bodymusic {
+        background-image: url(../img/retro.jpg); 
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+}
+.menumusic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    word-spacing: 20px;
+    font-size: 20px;
+    background-color: rgba(207, 27, 27, 0.082);
+    z-index: 999666;
+}
+ol {
+    list-style-position: inside;
+}
+.submenu {
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 999666;
+    margin: auto;
+    padding: 0;
+    display: none;
+}
+.limenu {
+    position: relative;
+}
+.submenu li {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.377);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.562);
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+.menu .limenu:hover .submenu {
+    display: block;
+}
