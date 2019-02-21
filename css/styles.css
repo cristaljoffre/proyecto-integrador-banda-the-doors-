@@ -1,0 +1,339 @@
+/*imortaciones*/
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+ul {
+  list-style: none; }
+  ul li {
+    padding: 10px;
+    background: red; }
+    ul li .clase {
+      text-decoration: none;
+      font-size: 30px; }
+
+div {
+  background: red;
+  border: 1px solid black;
+  width: 1100px; }
+  div .bloque1 {
+    background: red;
+    width: 650px;
+    /* asterisco multiplica barra/ divide*/ }
+
+.p {
+  color: red; }
+
+.disco-1 {
+  background-image: url("disco.jpg1"); }
+
+.disco-2 {
+  background-image: url("disco.jpg2"); }
+
+.disco-3 {
+  background-image: url("disco.jpg3"); }
+
+.disco-4 {
+  background-image: url("disco.jpg4"); }
+
+.disco-5 {
+  background-image: url("disco.jpg5"); }
+
+.disco-6 {
+  background-image: url("disco.jpg6"); }
+
+.disco-7 {
+  background-image: url("disco.jpg7"); }
+
+.disco-8 {
+  background-image: url("disco.jpg8"); }
+
+.disco-9 {
+  background-image: url("disco.jpg9"); }
+
+.disco-10 {
+  background-image: url("disco.jpg10"); }
+
+.disco-11 {
+  background-image: url("disco.jpg11"); }
+
+.disco-12 {
+  background-image: url("disco.jpg12"); }
+
+.disco-13 {
+  background-image: url("disco.jpg13"); }
+
+.disco-14 {
+  background-image: url("disco.jpg14"); }
+
+.disco-15 {
+  background-image: url("disco.jpg15"); }
+
+.disco-16 {
+  background-image: url("disco.jpg16"); }
+
+.disco-17 {
+  background-image: url("disco.jpg17"); }
+
+.disco-18 {
+  background-image: url("disco.jpg18"); }
+
+.disco-19 {
+  background-image: url("disco.jpg19"); }
+
+.disco-20 {
+  background-image: url("disco.jpg20"); }
+
+.disco-21 {
+  background-image: url("disco.jpg21"); }
+
+.disco-22 {
+  background-image: url("disco.jpg22"); }
+
+.disco-23 {
+  background-image: url("disco.jpg23"); }
+
+.disco-24 {
+  background-image: url("disco.jpg24"); }
+
+.disco-25 {
+  background-image: url("disco.jpg25"); }
+
+.disco-26 {
+  background-image: url("disco.jpg26"); }
+
+.disco-27 {
+  background-image: url("disco.jpg27"); }
+
+.disco-28 {
+  background-image: url("disco.jpg28"); }
+
+.disco-29 {
+  background-image: url("disco.jpg29"); }
+
+.disco-30 {
+  background-image: url("disco.jpg30"); }
+
+.disco-31 {
+  background-image: url("disco.jpg31"); }
+
+.disco-32 {
+  background-image: url("disco.jpg32"); }
+
+.disco-33 {
+  background-image: url("disco.jpg33"); }
+
+.disco-34 {
+  background-image: url("disco.jpg34"); }
+
+.disco-35 {
+  background-image: url("disco.jpg35"); }
+
+.disco-36 {
+  background-image: url("disco.jpg36"); }
+
+.disco-37 {
+  background-image: url("disco.jpg37"); }
+
+.disco-38 {
+  background-image: url("disco.jpg38"); }
+
+.disco-39 {
+  background-image: url("disco.jpg39"); }
+
+.disco-40 {
+  background-image: url("disco.jpg40"); }
+
+.disco-41 {
+  background-image: url("disco.jpg41"); }
+
+.disco-42 {
+  background-image: url("disco.jpg42"); }
+
+.disco-43 {
+  background-image: url("disco.jpg43"); }
+
+.disco-44 {
+  background-image: url("disco.jpg44"); }
+
+.disco-45 {
+  background-image: url("disco.jpg45"); }
+
+.disco-46 {
+  background-image: url("disco.jpg46"); }
+
+.disco-47 {
+  background-image: url("disco.jpg47"); }
+
+.disco-48 {
+  background-image: url("disco.jpg48"); }
+
+.disco-49 {
+  background-image: url("disco.jpg49"); }
+
+.disco-50 {
+  background-image: url("disco.jpg50"); }
+
+.disco-51 {
+  background-image: url("disco.jpg51"); }
+
+.disco-52 {
+  background-image: url("disco.jpg52"); }
+
+.disco-53 {
+  background-image: url("disco.jpg53"); }
+
+.disco-54 {
+  background-image: url("disco.jpg54"); }
+
+.disco-55 {
+  background-image: url("disco.jpg55"); }
+
+.disco-56 {
+  background-image: url("disco.jpg56"); }
+
+.disco-57 {
+  background-image: url("disco.jpg57"); }
+
+.disco-58 {
+  background-image: url("disco.jpg58"); }
+
+.disco-59 {
+  background-image: url("disco.jpg59"); }
+
+.disco-60 {
+  background-image: url("disco.jpg60"); }
+
+.disco-61 {
+  background-image: url("disco.jpg61"); }
+
+.disco-62 {
+  background-image: url("disco.jpg62"); }
+
+.disco-63 {
+  background-image: url("disco.jpg63"); }
+
+.disco-64 {
+  background-image: url("disco.jpg64"); }
+
+.disco-65 {
+  background-image: url("disco.jpg65"); }
+
+.disco-66 {
+  background-image: url("disco.jpg66"); }
+
+.disco-67 {
+  background-image: url("disco.jpg67"); }
+
+.disco-68 {
+  background-image: url("disco.jpg68"); }
+
+.disco-69 {
+  background-image: url("disco.jpg69"); }
+
+.disco-70 {
+  background-image: url("disco.jpg70"); }
+
+.disco-71 {
+  background-image: url("disco.jpg71"); }
+
+.disco-72 {
+  background-image: url("disco.jpg72"); }
+
+.disco-73 {
+  background-image: url("disco.jpg73"); }
+
+.disco-74 {
+  background-image: url("disco.jpg74"); }
+
+.disco-75 {
+  background-image: url("disco.jpg75"); }
+
+.disco-76 {
+  background-image: url("disco.jpg76"); }
+
+.disco-77 {
+  background-image: url("disco.jpg77"); }
+
+.disco-78 {
+  background-image: url("disco.jpg78"); }
+
+.disco-79 {
+  background-image: url("disco.jpg79"); }
+
+.disco-80 {
+  background-image: url("disco.jpg80"); }
+
+.disco-81 {
+  background-image: url("disco.jpg81"); }
+
+.disco-82 {
+  background-image: url("disco.jpg82"); }
+
+.disco-83 {
+  background-image: url("disco.jpg83"); }
+
+.disco-84 {
+  background-image: url("disco.jpg84"); }
+
+.disco-85 {
+  background-image: url("disco.jpg85"); }
+
+.disco-86 {
+  background-image: url("disco.jpg86"); }
+
+.disco-87 {
+  background-image: url("disco.jpg87"); }
+
+.disco-88 {
+  background-image: url("disco.jpg88"); }
+
+.disco-89 {
+  background-image: url("disco.jpg89"); }
+
+.disco-90 {
+  background-image: url("disco.jpg90"); }
+
+.disco-91 {
+  background-image: url("disco.jpg91"); }
+
+.disco-92 {
+  background-image: url("disco.jpg92"); }
+
+.disco-93 {
+  background-image: url("disco.jpg93"); }
+
+.disco-94 {
+  background-image: url("disco.jpg94"); }
+
+.disco-95 {
+  background-image: url("disco.jpg95"); }
+
+.disco-96 {
+  background-image: url("disco.jpg96"); }
+
+.disco-97 {
+  background-image: url("disco.jpg97"); }
+
+.disco-98 {
+  background-image: url("disco.jpg98"); }
+
+.disco-99 {
+  background-image: url("disco.jpg99"); }
+
+facebook-icon {
+  background-image: url("img/iconos/facebook.png"); }
+
+twitter-icon {
+  background-image: url("img/iconos/twitter.png"); }
+
+instagram-icon {
+  background-image: url("img/iconos/instagram.png"); }
+
+.btn--twitter {
+  background-color: aqua; }
+
+.btn--facebook {
+  background-color: blue; }
+
+.btn--instagram {
+  background-color: orange; }

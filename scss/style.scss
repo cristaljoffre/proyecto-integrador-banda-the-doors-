@@ -1,0 +1,76 @@
+/*imortaciones*/
+@import "partes/typo";
+//variables
+$fondo: red;
+$borde-caja: 1px solid black;
+$ancho: 1100px;
+$animal: gato;
+$i:1;
+ul {
+    list-style: none;
+    li {
+        padding: 10px;
+        background:$fondo;
+        .clase {
+            text-decoration: none;
+            font-size: 30px;
+        }
+    }
+}
+div {
+    background: $fondo;
+    border: $borde-caja;
+    width: $ancho;
+    .bloque1 {
+        background: $fondo;
+        width: ($ancho/2)+100; /* asterisco multiplica barra/ divide*/
+    }
+}
+.p {
+    @if $animal==otoño {
+        colorf: blue;
+    }
+
+    @else if $animal==invierno {
+        color: orange;
+    }
+
+    @else if $animal==verano {
+        color: purple;
+    }
+    @else {
+        color: red;
+    }
+}
+@for $i from 1 to 100 {
+    .disco-#{$i} {
+        background-image: url("disco.jpg" + $i);
+    }
+}
+@each $redessociales in facebook, twitter, instagram {
+    #{$redessociales}-icon {
+        background-image: url("img/iconos/#{$redessociales}.png")
+    }
+}
+
+$colores: (
+    twitter: aqua,
+    facebook: blue,
+    instagram: orange,
+);
+@each $name-color, $bgcolor in $colores {
+    .btn--#{$name-color} {
+        background-color: $bgcolor;
+    }
+}
+@mixin medidas($width,$heigth) {
+    width: $width;
+    height: $heigth;
+    color: $color;
+}
+.box {
+    @include medidas(500px, 100px, pink);
+}
+.box2 {
+    @include medidas(300px,700px, red);
+}
