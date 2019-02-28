@@ -24,7 +24,7 @@
     margin: 0;
     color: red;
     margin-bottom: 35%;
-    font-size: 175px;
+    font-size: 170px;
 }
 
 .flash {
@@ -165,7 +165,7 @@ select {
 
 .p {
     line-height: 18px;
-    letter-spacing: 1spx;
+    letter-spacing: 1px;
     text-align: justify;
     margin: 0%;
     padding: 10px;
@@ -366,7 +366,7 @@ select {
     background-size: contain;
 }*/
 .carousel {
-    width: 600px;
+    width: 400px;
     margin: auto;
 }
 table {
@@ -407,7 +407,7 @@ ol {
     .titulo1 {
         margin-top: 15px;
         margin-bottom: 90%;
-        font-size: 46px;
+        font-size: 40px;
     }
     nav {
         font-size: 10px;
@@ -553,7 +553,7 @@ ol {
     .titulo1 {
         margin-top: 60px;
         margin-bottom: 75%;
-        font-size: 98px;
+        font-size: 95px;
     }
     nav {
         font-size: 15px;
