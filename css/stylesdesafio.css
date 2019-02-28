@@ -1,4 +1,4 @@
-body {
+* body {
     margin: 0;
     font-family: 'Cagliostro', sans-serif;
     background: black;
@@ -216,7 +216,7 @@ select {
     background-attachment: fixed;
 }
 
-.flex {
+/*.flex {
     width: 100%;
     height: 500px;
     list-style: none;
@@ -229,12 +229,11 @@ select {
 
 .info {
     text-align: center;
-    margin: 0;
     list-style: none;
     padding: 0;
     margin: 0;
     position: relative;
-}
+
 
 .info img {
     width: 35%;
@@ -365,8 +364,11 @@ select {
 #tapa8:hover {
     background-image: url(../img/Jim_Morrison-Music_By_The_Doors_An_American_Prayer-Trasera.jpg);
     background-size: contain;
+}*/
+.carousel {
+    width: 600px;
+    margin: auto;
 }
-
 table {
     margin: 0 auto;
     width: 40%;
@@ -398,7 +400,7 @@ ol {
     list-style-position: inside;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:480px) {
     body {
         background: black;
     }
@@ -514,6 +516,10 @@ ol {
         font-size: 15px;
         text-align: center;
     }
+    .carousel {
+        width: 200px;
+        margin: auto;
+    }
     .fondosumusica {
         background-image: url(../img/retro.jpg);
         background-size: cover;
@@ -540,7 +546,7 @@ ol {
     }
 }
 
-@media only screen and (min-width:401px) and (max-width:960px) {
+@media only screen and (min-width:481px) and (max-width:1023sspx) {
     body {
         background: black;
     }
@@ -580,6 +586,10 @@ ol {
         width: 50%;
         margin: auto;
         font-size: 15px;
+        margin-bottom: 100px;
+    }
+    footer {
+        margin-bottom: 100px;
     }
     #contacto {
         font-size: 10px;
@@ -649,9 +659,6 @@ ol {
     }
     .info .overlay {
         font-size: 20px;
-    }
-    .fondodiscografia h2 {
-        text-align: center;
     }
     table {
         padding: 0%;
