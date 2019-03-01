@@ -42,7 +42,10 @@
 .menudoors li {
     padding: 0;
 }
-
+#mobile {
+    display: none;
+    background:rgba(0, 0, 0, 0.438);
+}
 nav {
     position: fixed;
     top: 0;
@@ -102,10 +105,14 @@ ul li {
     z-index: 9999999;
 }
 
-footer {
+.fondofooter {
     background: linear-gradient(dimgray, white);
 }
+.etiqueta {
+    text-align: left;
+    font-size: 10px;
 
+}
 #contacto {
     font-size: 16px;
     background-color: dimgray;
@@ -378,9 +385,8 @@ table {
 }
 
 .infotecnica ul {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    width: 70%;
+    margin: auto;
     font-size: 20px;
     text-align: center;
 }
@@ -546,7 +552,7 @@ ol {
     }
 }
 
-@media only screen and (min-width:481px) and (max-width:1023sspx) {
+@media only screen and (min-width:481px) and (max-width:1023px) {
     body {
         background: black;
     }
@@ -701,5 +707,13 @@ ol {
     ol {
         font-size: 25px;
         padding: 0;
+    }
+}
+@media (max-width:600px){
+    .menudoors{
+        display: none;
+    }
+    #mobile {
+        display: block;
     }
 }
