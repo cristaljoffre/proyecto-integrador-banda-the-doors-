@@ -4,8 +4,11 @@
     background: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .fondoindex {
-    height: 900px;
     background-image: url(../img/ellos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,11 +23,13 @@
 }
 
 .titulo1 {
+    width: 100%;
     font-family: 'Notable', sans-serif;
-    margin: 0;
+    margin: auto;
     color: red;
     margin-bottom: 35%;
-    font-size: 170px;
+    font-size: 175px;
+    text-align: center;
 }
 
 .flash {
@@ -35,33 +40,48 @@
     animation-delay: 1s;
 }
 
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    word-spacing: 25px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    background: black;
+    z-index: 999666;
+}
+
+nav:hover {
+    background: rgba(49, 47, 47, 0.753);
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20%;
+    margin: auto;
+}
+
+#mobile {
+    display: none;
+    background: rgba(0, 0, 0, 0.438);
+    border: none;
+    color: white;
+    font-size: 10px;
+}
+
+.menudoors {
+    padding-left: 0;
+}
+
 .menudoors .limenu:hover .submenu {
     display: block;
 }
 
 .menudoors li {
     padding: 0;
-}
-#mobile {
-    display: none;
-    background:rgba(0, 0, 0, 0.438);
-}
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    word-spacing: 25px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background: black;
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 10px;
-    width: 20%;
 }
 
 a {
@@ -99,36 +119,75 @@ ul li {
     width: 100%;
     background: white;
     border-bottom: 1px solid rgba(0, 0, 0, 0.562);
-    padding: 0;
-    margin: 0;
-    height: 40px;
-    z-index: 9999999;
+    padding: 5%;
+    margin: auto;
 }
 
 .fondofooter {
-    background: linear-gradient(dimgray, white);
+    padding-top: 20%;
+    background-image: url(../img/jmorrisonfoo_edited.jpg);
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
 }
-.etiqueta {
-    text-align: left;
-    font-size: 10px;
 
-}
-#contacto {
-    font-size: 16px;
-    background-color: dimgray;
-    border: black;
-    text-align: center;
-    margin-top: 0 !important;
+label,
+input,
+textarea,
+select {
+    width: 100%;
+    margin: auto;
+    color: rgba(255, 0, 0, 0.548);
+    font-family: 'Cagliostro', sans-serif;
 }
 
 input,
 textarea,
 select {
-    width: 100%;
+    background-color: rgba(255, 0, 0, 0.342);
+    border: 0;
 }
 
-.formulario {
+form {
     width: 30%;
+    margin-left: 20%;
+    margin-bottom: 0;
+}
+
+form h1 {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.548);
+}
+
+.boton {
+    width: 30%;
+    margin-left: 35%;
+}
+
+.etiqueta {
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    padding: 0%;
+}
+
+.contacto {
+    background: rgb(255, 255, 255);
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.contactointegrantes {
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+}
+
+.icono {
+    width: 3%;
+    height: 3%;
+    padding-top: 1%;
+    padding-right: 1%;
     margin: auto;
 }
 
@@ -140,21 +199,20 @@ select {
 }
 
 .titulo2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 100px;
     text-align: right;
 }
 
-.ajustesubtitulo {
-    font-size: 40px;
-}
-
 .headerhistoria {
+    width: 100%;
     text-align: right;
-    margin: 0;
+    margin: auto;
     list-style: none;
     padding: 0;
-    margin: 0;
     position: relative;
 }
 
@@ -170,16 +228,23 @@ select {
     opacity: 1;
 }
 
+.ajustesubtitulo {
+    width: 100%;
+    margin: auto;
+    font-size: 40px;
+}
+
 .p {
+    width: 75%;
+    margin: auto;
     line-height: 18px;
     letter-spacing: 1px;
     text-align: justify;
-    margin: 0%;
-    padding: 10px;
 }
 
 .ajusteimg {
     width: 100%;
+    margin: auto;
 }
 
 .fondointegrantes {
@@ -190,16 +255,39 @@ select {
 }
 
 .titulo3 {
+    width: 100%;
+    margin-top: 5%;
     font-size: 100px;
     color: brown;
     font-family: 'Rubik Mono One', sans-serif;
     text-align: right;
 }
 
+.columnas img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.columnas p {
+    padding-right: 5%;
+    padding-left: 5%
+}
+
+.columnas h2 {
+    text-align: left;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
 .columna1 {
-    background: rgba(0, 0, 0, 0.315);
-    padding: 20px;
-    width: 47%;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.425);
     float: left;
     text-align: justify;
     font-size: 20px;
@@ -207,9 +295,32 @@ select {
 }
 
 .columna2 {
-    background: rgba(24, 21, 21, 0.11);
-    padding: 20px;
-    width: 47%;
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.425);
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    color: wheat;
+}
+
+.columna3 {
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.342);
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    color: wheat;
+}
+
+.columna4 {
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.425);
     float: left;
     text-align: justify;
     font-size: 20px;
@@ -223,168 +334,33 @@ select {
     background-attachment: fixed;
 }
 
-/*.flex {
-    width: 100%;
-    height: 500px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex: row;
-    justify-content: stretch;
-}
-
-.info {
-    text-align: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-
-
-.info img {
-    width: 35%;
-    height: 35%;
-}
-
-.info .overlay {
-    position: absolute;
-    top: 100px;
-    left: 100;
-    opacity: 0;
-    transition: ease all 0.2s;
-    background-color: rgb(165, 136, 42);
-}
-
-.info:hover .overlay {
-    opacity: 1;
-}
-
-.tapa {
-    width: 550px;
-    height: 550px;
-}
-
-#thedoors {
-    background-image: url(../img/302.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#thedoors:hover {
-    background-image: url(../img/the_doors_the_doors_b.jpg);
-    background-size: contain;
-}
-
-#tapa1 {
-    background-image: url(../img/tapa1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: center center;
-    background-size: cover;
-}
-
-#tapa1:hover {
-    background-image: url(../img/81M2sXEPv0L._SL1200_.jpg);
-    background-size: contain;
-}
-
-#tapa2 {
-    background-image: url(../img/F15.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#tapa2:hover {
-    background-image: url(../img/wfts.jpg);
-    background-size: contain;
-}
-
-#tapa3 {
-    background-image: url(../img/C41.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#tapa3:hover {
-    background-image: url(../img/una.jpg);
-    background-size: contain;
-}
-
-#tapa4 {
-    background-image: url(../img/tapa2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#tapa4:hover {
-    background-image: url(../img/The_Doors-Morrison_Hotel-Trasera.jpg);
-    background-size: contain;
-}
-
-#tapa5 {
-    background-image: url(../img/2FB.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#tapa5:hover {
-    background-image: url(../img/The_Doors-L.A._Woman-Trasera.jpg);
-    background-size: contain;
-}
-
-#tapa6 {
-    background-image: url(../img/tapa3.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#tapa6:hover {
-    background-image: url(../img/the-doors-other-voices-ab.jpg);
-    background-size: contain;
-}
-
-#tapa7 {
-    background-image: url(../img/f1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#tapa7:hover {
-    background-image: url(../img/f2.jpg);
-    background-size: contain;
-}
-
-#tapa8 {
-    background-image: url(../img/429163fae1964b85af32bbb56058f7b7.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#tapa8:hover {
-    background-image: url(../img/Jim_Morrison-Music_By_The_Doors_An_American_Prayer-Trasera.jpg);
-    background-size: contain;
-}*/
 .carousel {
-    width: 400px;
+    width: 40%;
     margin: auto;
 }
-table {
-    margin: 0 auto;
-    width: 40%;
-    letter-spacing: 7px;
-    background-color: rgba(127, 255, 212, 0.479);
-    text-align: center;
+
+.container {
+    padding: 5%;
 }
 
-.infotecnica ul {
+table {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 7px;
+    background-image: url(../img/kkkk44444.jpg);
+    background-size: 100%;
+}
+
+table td {
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+.infotecnica {
+    background-color: rgba(255, 253, 253, 0.123);
+}
+
+.infotecnica p {
     width: 70%;
     margin: auto;
     font-size: 20px;
@@ -399,39 +375,45 @@ table {
 }
 
 .totalsection {
+    width: 100%;
+    margin: auto;
     text-align: center;
 }
 
 ol {
+    text-align: center;
     list-style-position: inside;
 }
 
 @media only screen and (max-width:480px) {
     body {
         background: black;
+        margin: 0;
     }
     .titulo1 {
-        margin-top: 15px;
-        margin-bottom: 90%;
+        width: 100%;
+        margin: auto;
+        margin-top: 5%;
         font-size: 40px;
-    }
-    nav {
-        font-size: 10px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        word-spacing: 5px;
-        margin: 0;
-        padding: 0;
+        margin-bottom: 95%;
         text-align: center;
     }
+    nav {
+        width: 100%;
+        margin: auto;
+        position: fixed;
+        padding: 2%;
+        text-align: center;
+        word-spacing: 0;
+    }
     .menudoors {
-        padding: 0;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        width: 100%;
+        margin: auto;
+        padding-left: 0;
+        font-size: 5px;
     }
     .fondoindex {
+        background-position-y: 15%;
         background-image: url(../img/WhatsApp\ Image\ 2019-02-11\ at\ 23.50.43.jpeg);
         background-position: center initial center;
         background-size: contain;
@@ -441,32 +423,47 @@ ol {
         background-position: center initial center;
         background-size: cover;
     }
-    .formulario {
-        margin-top: 10%;
-        width: 50%;
+    .fondofooter {
+        padding-top: 5%;
+        font-size: 10px;
+        background: linear-gradient(black, grey, white);
+        width: 100%;
         margin: auto;
-        font-size: 10px;
     }
-    #contacto {
-        font-size: 10px;
+    form {
+        width: 70%;
+        margin: auto;
+    }
+    .boton {
+        width: 50%;
+        margin-left: 25%;
+    }
+    form h1 {
+        font-size: 15px;
+    }
+    .etiqueta {
+        font-size: 5px;
     }
     .fondohistoria {
         background-size: cover;
     }
     .p {
+        font-size: 10px;
         padding: 10px;
     }
     .titulo2 {
-        font-family: 'Rubik Mono One', sans-serif;
-        font-size: 40px;
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+        font-size: 20px;
         text-align: right;
     }
     .ajustesubtitulo {
-        font-size: 20px;
+        font-size: 10px;
     }
     .headerhistoria .overlay {
         position: absolute;
-        top: 10px;
+        top: 35%;
         left: 0;
         opacity: 0;
         transition: ease all 0.2s;
@@ -478,239 +475,339 @@ ol {
         background-size: cover;
     }
     .titulo3 {
-        font-size: 40px;
+        width: 100%;
+        margin: auto;
         margin-top: 10%;
-        margin-bottom: 0;
+        font-size: 20px;
+        text-align: right;
+    }
+    .columnas img {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .columnas p {
+        padding-right: 5%;
+        padding-left: 5%
+    }
+    .columnas h2 {
+        text-align: left;
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 10px;
     }
     .columna1 {
-        width: 90%;
-        font-size: 15px;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: justify;
+        font-size: 10px;
     }
     .columna2 {
-        width: 90%;
-        font-size: 15px;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: justify;
+        font-size: 10px;
+    }
+    .columna3 {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: justify;
+        font-size: 10px;
+    }
+    .columna4 {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: justify;
+        font-size: 10px;
     }
     .fondodiscografia {
+        background-image: url(../img/vitrola.jpg);
         background-size: cover;
-    }
-    .flex {
-        width: 100%;
-        padding-bottom: 1500px;
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
-        flex-direction: column;
-    }
-    .tapa {
-        width: 200px;
-        height: 200px;
-    }
-    .info .overlay {
-        font-size: 10px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     table {
-        padding: 0%;
-        text-align: center;
-        font-size: 15px;
-    }
-    table td {
         font-size: 10px;
-        word-spacing: 1px;
+        width: 80%;
+        margin: auto;
+        letter-spacing: 1px;
+        background-image: url(../img/kkkk44444.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .infotecnica ul {
-        padding: 0%;
-        font-size: 15px;
+    .infotecnica p {
+        width: 80%;
+        margin: auto;
+        font-size: 10px;
         text-align: center;
     }
     .carousel {
-        width: 200px;
+        width: 80%;
         margin: auto;
     }
     .fondosumusica {
         background-image: url(../img/retro.jpg);
+        background-size: 100%;
         background-size: cover;
     }
     .totalsection {
-        font-size: 15px;
+        width: 80%;
+        margin: auto;
+        font-size: 10px;
         text-align: center;
     }
     .totalsection h2 {
-        font-size: 20px;
-    }
-    .totalsection h3 {
-        font-size: 15px;
-    }
-    video {
-        width: 70%;
-        height: 70%;
-    }
-    audio {
-        width: 60%;
-    }
-    ol {
-        padding: 0;
-    }
-}
-
-@media only screen and (min-width:481px) and (max-width:1023px) {
-    body {
-        background: black;
-    }
-    .titulo1 {
-        margin-top: 60px;
-        margin-bottom: 75%;
-        font-size: 95px;
-    }
-    nav {
-        font-size: 15px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        word-spacing: 6px;
-        margin: 0;
-        padding: 10px;
-        text-align: center;
-    }
-    .menudoors {
-        padding: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .fondoindex {
-        background-image: url(../img/WhatsApp\ Image\ 2019-02-11\ at\ 23.50.43.jpeg);
-        background-position: center initial center;
-        background-size: contain;
-    }
-    .fondoindex:hover {
-        background-image: url(../img/negro.jpg);
-        background-position: center initial center;
-        background-size: cover;
-    }
-    .formulario {
-        margin-top: 10%;
-        width: 50%;
-        margin: auto;
-        font-size: 15px;
-        margin-bottom: 100px;
-    }
-    footer {
-        margin-bottom: 100px;
-    }
-    #contacto {
         font-size: 10px;
     }
-    .fondohistoria {
-        background-size: cover;
-    }
-    .p {
-        padding: 10px;
-    }
-    .titulo2 {
-        margin-top: 95%;
-        font-family: 'Rubik Mono One', sans-serif;
-        font-size: 40px;
-        text-align: right;
-    }
-    .ajustesubtitulo {
-        font-size: 20px;
-    }
-    .headerhistoria img {
-        margin-top: 5%;
-    }
-    .headerhistoria .overlay {
-        position: absolute;
-        top: 10px;
-        left: 0;
-        opacity: 0;
-        transition: ease all 0.2s;
-    }
-    .headerhistoria:hover .overlay {
-        opacity: 1;
-    }
-    .fondointegrantes {
-        background-size: cover;
-    }
-    .titulo3 {
-        font-size: 50px;
-        margin-top: 10%;
-        margin-bottom: 0;
-    }
-    .columna1 {
-        width: 44%;
-        font-size: 20px;
-    }
-    .columna2 {
-        width: 44%;
-        font-size: 20px;
-    }
-    .fondodiscografia {
-        background-size: cover;
-    }
-    .fondodiscografia .titulo2 {
-        margin-top: 10%;
-        font-size: 50px;
-    }
-    .flex {
-        width: 100%;
-        padding-bottom: 3000px;
-        padding-top: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-        flex-direction: column;
-    }
-    .tapa {
-        width: 370px;
-        height: 370px;
-    }
-    .info .overlay {
-        font-size: 20px;
-    }
-    table {
-        padding: 0%;
-        text-align: center;
-        font-size: 15px;
-    }
-    table td {
-        font-size: 15px;
-        word-spacing: 1px;
-    }
-    .infotecnica ul {
-        padding: 0%;
-        font-size: 20px;
-        text-align: center;
-    }
-    .fondosumusica {
-        background-image: url(../img/retro.jpg);
-        background-size: cover;
-    }
-    .fondosumusica .titulo2 {
-        margin-top: 10%;
-    }
-    .totalsection {
-        font-size: 20px;
-        text-align: center;
-    }
-    .totalsection h2 {
-        font-size: 25px;
-    }
     .totalsection h3 {
-        font-size: 20px;
+        font-size: 10px;
     }
     video {
         width: 80%;
         height: 80%;
     }
     audio {
-        width: 70%;
+        width: 80%;
     }
     ol {
-        font-size: 25px;
         padding: 0;
     }
+    .contacto {
+        width: 100%;
+        margin: auto;
+        background-size: contain;
+    }
+    .icono {
+        width: 5%;
+        height: 5%;
+        padding-top: 1%;
+        padding-right: 1%;
+        margin: auto;
+    }
 }
-@media (max-width:600px){
-    .menudoors{
+
+@media only screen and (min-width:481px) and (max-width:1024px) {
+    body {
+        background: black;
+        margin: 0;
+    }
+    .titulo1 {
+        width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        font-size: 95px;
+        margin-bottom: 95%;
+        text-align: center;
+    }
+    nav {
+        width: 100%;
+        margin: auto;
+        position: fixed;
+        padding: 2%;
+        text-align: center;
+        word-spacing: 0;
+    }
+    .menudoors {
+        width: 100%;
+        margin: auto;
+        padding-left: 0;
+        font-size: 10px;
+    }
+    .fondoindex {
+        background-position-y: 15%;
+        background-image: url(../img/WhatsApp\ Image\ 2019-02-11\ at\ 23.50.43.jpeg);
+        background-position: center;
+        background-size: contain;
+    }
+    .fondoindex:hover {
+        background-image: url(../img/negro.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .fondofooter {
+        padding-top: 5%;
+        font-size: 10px;
+        background: linear-gradient(black, grey, white);
+        width: 100%;
+        margin: auto;
+    }
+    input,
+    textarea,
+    select,
+    label {
+        color: black;
+        font-size: 15px;
+    }
+    form {
+        width: 50%;
+        margin: auto;
+    }
+    .boton {
+        width: 50%;
+        margin-left: 25%;
+    }
+    form h1 {
+        font-size: 15px;
+    }
+    .etiqueta {
+        font-size: 10px;
+    }
+    .fondohistoria {
+        background-size: cover;
+    }
+    .p {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .titulo2 {
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+        font-size: 50px;
+        text-align: right;
+    }
+    .ajustesubtitulo {
+        font-size: 20px;
+    }
+    .headerhistoria .overlay {
+        position: absolute;
+        top: 35%;
+        left: 0;
+        opacity: 0;
+        transition: ease all 0.2s;
+    }
+    .headerhistoria:hover .overlay {
+        opacity: 1;
+    }
+    .fondointegrantes {
+        background-size: cover;
+    }
+    .titulo3 {
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+        font-size: 50px;
+        text-align: right;
+    }
+    .columnas img {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .columnas p {
+        padding-right: 5%;
+        padding-left: 5%
+    }
+    .columnas h2 {
+        text-align: left;
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 15px;
+    }
+    .columna1 {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .columna2 {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .columna3 {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .columna4 {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .fondodiscografia {
+        background-image: url(../img/vitrola.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    table {
+        font-size: 15px;
+        width: 50%;
+        margin: auto;
+        letter-spacing: 1px;
+        background-image: url(../img/kkkk44444.jpg);
+        background-size: cover;
+        /*background: rgba(16, 182, 146, 0.267);*/
+    }
+    .infotecnica p {
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+        text-align: center;
+    }
+    .carousel {
+        width: 80%;
+        margin: auto;
+    }
+    .fondosumusica {
+        background-image: url(../img/retro.jpg);
+        background-size: 100%;
+        background-size: cover;
+    }
+    .totalsection {
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+        text-align: center;
+    }
+    .totalsection h2 {
+        font-size: 15px;
+    }
+    .totalsection h3 {
+        font-size: 15px;
+    }
+    video {
+        width: 80%;
+        height: 80%;
+    }
+    audio {
+        width: 80%;
+    }
+    ol {
+        padding: 0;
+    }
+    .contacto {
+        width: 100%;
+        margin: auto;
+        background-size: contain;
+    }
+    .icono {
+        width: 5%;
+        height: 5%;
+        padding-top: 1%;
+        padding-right: 1%;
+        margin: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .menudoors {
         display: none;
     }
     #mobile {
